@@ -1,5 +1,5 @@
 export function logSomething(arg: number): string {
-  console.log('Something logged');
+    console.log('Something logged');
 
-  return 'QWE'
+    return 'QWE';
 }
