@@ -8,5 +8,13 @@
     "bracketSpacing": true,
     "jsxSingleQuote": true,
     "bracketSameLine": false,
-    "endOfLine": "auto"
+    "endOfLine": "auto",
+    "overrides": [
+        {
+            "files": ["*.scss"],
+            "options": {
+                "singleQuote": false
+            }
+        }
+    ]
 }
