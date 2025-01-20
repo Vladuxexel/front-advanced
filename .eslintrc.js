@@ -2,6 +2,7 @@ module.exports = {
     env: {
         browser: true,
         es2021: true,
+        jest: true,
     },
     extends: ['plugin:react/recommended', 'airbnb', 'plugin:i18next/recommended'],
     parser: '@typescript-eslint/parser',
@@ -15,7 +16,7 @@ module.exports = {
     plugins: ['react', '@typescript-eslint', 'i18next'],
     rules: {
         'linebreak-style': 'off',
-        'max-len': ['error', { code: 120 }],
+        'max-len': ['error', { code: 120, ignoreComments: true }],
         'object-curly-newline': 'off',
         'jsx-quotes': ['error', 'prefer-single'],
         'react/jsx-indent': [2, 4],
