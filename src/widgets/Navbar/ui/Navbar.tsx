@@ -1,15 +1,8 @@
 import { classNames } from 'shared/lib/classNames/classNames';
-import { useTranslation } from 'react-i18next';
 import styles from './Navbar.module.scss';
 
 interface NavbarProps {
     className?: string;
 }
 
-export const Navbar = ({ className }: NavbarProps) => {
-    const { t } = useTranslation();
-
-    return (
-        <div className={classNames(styles.navbar, {}, [className])} />
-    );
-};
+export const Navbar = ({ className }: NavbarProps) => <div className={classNames(styles.navbar, {}, [className])} />;
