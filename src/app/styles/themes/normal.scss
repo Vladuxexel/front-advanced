@@ -1,8 +1,11 @@
-.app.light {
-    --bg-color: #c4cbcc;
-    --inverted-bg-color: #191966;
-    --primary-color: #5145b8;
-    --secondary-color: #205392;
-    --inverted-primary-color: #45a82c;
-    --inverted-secondary-color: #167927;
+.app,
+.modal {
+    &.light {
+        --bg-color: #c4cbcc;
+        --inverted-bg-color: #191966;
+        --primary-color: #5145b8;
+        --secondary-color: #205392;
+        --inverted-primary-color: #45a82c;
+        --inverted-secondary-color: #167927;
+    }
 }
